@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-   static void Main(string[] args)
+    static void Main(string[] args)
     {
         Console.WriteLine("Type a number");
         int Number = Convert.ToInt32(Console.ReadLine());
@@ -11,6 +11,6 @@ class Program
         int c = (Number % 100) / 10;
         int d = Number % 10;
         int result = a * b * c * d;
-        Console.WriteLine("Result is", result);
+        Console.WriteLine("Result is " + result);   
     }
 }
